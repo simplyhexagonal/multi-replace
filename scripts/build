@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+rm -rf dist/*
+esbuild src/index.ts --bundle --target=chrome60,firefox60,safari12,edge18 \
+  --outfile=dist/multi-replace.js --sourcemap --format=iife --global-name=MultiReplace \
+  && esbuild src/index.ts --bundle --target=chrome60,firefox60,safari12,edge18 \
+  --outfile=dist/multi-replace.min.js --minify --format=iife --global-name=MultiReplace \
+  && tsc -d --emitDeclarationOnly --rootDir src --outDir dist \
+  && mv dist/index.d.ts dist/multi-replace.d.ts \
+  && refup dist/multi-replace.js MultiReplace \
+  && refup dist/multi-replace.min.js MultiReplace \
+  || exit 1
