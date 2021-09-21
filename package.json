@@ -1,5 +1,5 @@
 {
-  "name": "multi-replace",
+  "name": "@simplyhexagonal/multi-replace",
   "version": "1.0.0",
   "description": "Functions to easily perform various replace operations on a Javascript/Typescript string",
   "main": "dist/multi-replace.js",
