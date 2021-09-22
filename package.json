@@ -27,6 +27,10 @@
       "publish": false
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplyhexagonal/multi-replace"
+  },
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/jest": "^27.0.1",
