@@ -19,7 +19,7 @@ var MultiReplace = (() => {
   });
 
   // package.json
-  var version = "1.0.1";
+  var version = "1.0.2";
 
   // src/index.ts
   var multiReplace = async (content, replacePatterns) => {
@@ -42,4 +42,4 @@ var MultiReplace = (() => {
   return src_exports;
 })();
 //# sourceMappingURL=multi-replace.js.map
-'undefined'!=typeof module&&(module.exports=MultiReplace.default),'undefined'!=typeof window&&(MultiReplace=MultiReplace.default);
+'undefined'!=typeof module&&(module.exports=MultiReplace),'undefined'!=typeof window&&(MultiReplace=MultiReplace);
