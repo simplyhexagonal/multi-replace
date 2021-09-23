@@ -36,6 +36,7 @@
   "files": [
     "dist",
     "runkit.js",
+    "README.md",
     "package.json"
   ],
   "runkitExampleFilename": "./runkit.js",
