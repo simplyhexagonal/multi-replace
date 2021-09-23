@@ -12,6 +12,7 @@
       "url": "http://jeanlescure.io/"
     }
   ],
+  "license": "Apache-2.0",
   "scripts": {
     "test": "jest",
     "build": "scripty",
@@ -32,14 +33,14 @@
     "type": "git",
     "url": "https://github.com/simplyhexagonal/multi-replace"
   },
-  "license": "Apache-2.0",
+  "runkitExampleFilename": "./runkit.js",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.2",
     "auto-changelog": "^2.3.0",
     "esbuild": "^0.12.28",
     "jest": "^27.2.0",
-    "refup": "^1.0.0",
+    "refup": "^1.1.0",
     "release-it": "^14.11.5",
     "scripty": "^2.0.0",
     "ts-jest": "^27.0.5",

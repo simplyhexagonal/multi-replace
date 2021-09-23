@@ -1,4 +1,6 @@
 # Multi Replace
+![Tests](https://github.com/simplyhexagonal/multi-replace/workflows/tests/badge.svg)
+[![Try multi-replace on RunKit](https://badge.runkitcdn.com/@simplyhexagonal/multi-replace.svg)](https://npm.runkit.com/@simplyhexagonal/multi-replace)
 
 On a single call, perform multiple replace operations on a Javascript/Typescript string.
 
