@@ -1,3 +1,5 @@
+export { version } from '../package.json';
+
 export type MultiReplaceMatcher = string | RegExp;
 
 export type MultiReplaceReplacement = string | (
