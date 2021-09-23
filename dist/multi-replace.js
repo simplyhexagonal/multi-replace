@@ -14,8 +14,14 @@ var MultiReplace = (() => {
   var src_exports = {};
   __export(src_exports, {
     multiReplace: () => multiReplace,
-    multiReplaceSync: () => multiReplaceSync
+    multiReplaceSync: () => multiReplaceSync,
+    version: () => version
   });
+
+  // package.json
+  var version = "1.0.1";
+
+  // src/index.ts
   var multiReplace = async (content, replacePatterns) => {
     const promise = replacePatterns.reduce(async (a, [matcher, replacement]) => {
       const prevReplaceResult = await a;

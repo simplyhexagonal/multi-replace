@@ -1,3 +1,4 @@
+export { version } from '../package.json';
 export declare type MultiReplaceMatcher = string | RegExp;
 export declare type MultiReplaceReplacement = string | ((substring: string, ...args: any[]) => Promise<string>);
 export declare type MultiReplaceSyncReplacement = string | ((substring: string, ...args: any[]) => string);
