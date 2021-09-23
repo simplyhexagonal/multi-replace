@@ -5,6 +5,10 @@
   "private": false,
   "main": "dist/multi-replace.js",
   "types": "dist/multi-replace.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplyhexagonal/multi-replace"
+  },
   "contributors": [
     {
       "name": "Jean M. Lescure",
@@ -29,10 +33,11 @@
       "publish": false
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/simplyhexagonal/multi-replace"
-  },
+  "files": [
+    "dist",
+    "runkit.js",
+    "package.json"
+  ],
   "runkitExampleFilename": "./runkit.js",
   "devDependencies": {
     "@types/jest": "^27.0.1",
