@@ -96,7 +96,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://jeanlescure.cr"><img src="https://shortunique.id/assets/contributors/jeanlescure.svg" /></a><table><tbody><tr><td width="150" align="center"><a href="#maintenance-jeanlescure" title="Maintenance">🚧</a> <a href="https://github.com/simplyhexagonal/multi-replace/commits?author=jeanlescure" title="Code">💻</a> <a href="https://github.com/simplyhexagonal/multi-replace/commits?author=jeanlescure" title="Documentation">📖</a> <a href="https://github.com/simplyhexagonal/multi-replace/commits?author=jeanlescure" title="Tests">⚠️</a></td></tr></tbody></table></td>
+    <td align="center"><a href="https://jeanlescure.cr"><img src="https://avatars2.githubusercontent.com/u/3330339?v=4" width="100px;" alt=""/><br /><sub><b>Jean Lescure</b></sub></a><br /><a href="#maintenance-jeanlescure" title="Maintenance">🚧</a> <a href="https://github.com/simplyhexagonal/multi-replace/commits?author=jeanlescure" title="Code">💻</a> <a href="#userTesting-jeanlescure" title="User Testing">📓</a> <a href="https://github.com/simplyhexagonal/multi-replace/commits?author=jeanlescure" title="Tests">⚠️</a> <a href="#example-jeanlescure" title="Examples">💡</a> <a href="https://github.com/simplyhexagonal/multi-replace/commits?author=jeanlescure" title="Documentation">📖</a></td>
   </tr>
 </table>
 
