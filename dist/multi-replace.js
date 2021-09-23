@@ -19,7 +19,7 @@ var MultiReplace = (() => {
   });
 
   // package.json
-  var version = "1.0.3";
+  var version = "1.0.4";
 
   // src/index.ts
   var multiReplace = async (content, replacePatterns) => {
