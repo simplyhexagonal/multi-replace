@@ -57,3 +57,8 @@ export const multiReplaceSync = (
   (a, b) => a.replace(...b),
   content,
 );
+
+export default {
+  multiReplace,
+  multiReplaceSync,
+};

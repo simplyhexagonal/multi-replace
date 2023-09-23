@@ -21,6 +21,7 @@ var MultiReplace = (() => {
   // src/index.ts
   var src_exports = {};
   __export(src_exports, {
+    default: () => src_default,
     multiReplace: () => multiReplace,
     multiReplaceSync: () => multiReplaceSync,
     version: () => version
@@ -58,7 +59,11 @@ var MultiReplace = (() => {
     (a, b) => a.replace(...b),
     content
   );
+  var src_default = {
+    multiReplace,
+    multiReplaceSync
+  };
   return __toCommonJS(src_exports);
 })();
 //# sourceMappingURL=multi-replace.js.map
-'undefined'!=typeof module&&(module.exports=MultiReplace),'undefined'!=typeof window&&(MultiReplace=MultiReplace);
+'undefined'!=typeof module&&(module.exports=MultiReplace.default),'undefined'!=typeof window&&(MultiReplace=MultiReplace.default);

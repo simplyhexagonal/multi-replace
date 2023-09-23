@@ -6,3 +6,8 @@ export type MultiReplacePatterns = [MultiReplaceMatcher, MultiReplaceReplacement
 export type MultiReplaceSyncPatterns = [MultiReplaceMatcher, MultiReplaceSyncReplacement][];
 export declare const multiReplace: (content: string | Promise<string>, replacePatterns: MultiReplacePatterns) => Promise<string>;
 export declare const multiReplaceSync: (content: string, replacePatterns: MultiReplaceSyncPatterns) => string;
+declare const _default: {
+    multiReplace: (content: string | Promise<string>, replacePatterns: MultiReplacePatterns) => Promise<string>;
+    multiReplaceSync: (content: string, replacePatterns: MultiReplaceSyncPatterns) => string;
+};
+export default _default;
